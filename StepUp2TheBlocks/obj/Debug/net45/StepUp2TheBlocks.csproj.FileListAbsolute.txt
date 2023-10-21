@@ -1,0 +1,17 @@
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\StepUp2TheBlocks.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\StepUp2TheBlocks.pdb
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\0Harmony.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\Main.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\Unfoundry.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\UnityEngine.AudioModule.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\UnityEngine.CoreModule.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\UnityEngine.PhysicsModule.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\bin\Debug\net45\UnityEngine.SharedInternalsModule.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.csproj.AssemblyReference.cache
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.AssemblyInfoInputs.cache
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.AssemblyInfo.cs
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.csproj.CoreCompileInputs.cache
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.csproj.CopyComplete
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.dll
+E:\Development\CS\StepUp2TheBlocks\StepUp2TheBlocks\obj\Debug\net45\StepUp2TheBlocks.pdb

@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(SolutionDir)Foundry.props" Condition="Exists('$(SolutionDir)Foundry.props')" />
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(FoundryAssembliesPath)0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Main" Publicize="true">
+      <HintPath>..\publicized_assemblies\Main.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>G:\Games\Foundry\Foundry_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(FoundryAssembliesPath)UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unfoundry">
+      <HintPath>$(FoundryModsPath)A_Unfoundry\Unfoundry.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>G:\Games\Foundry\Foundry_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="$(SolutionDir)AssemblyPublicizer.exe --input=&quot;$(FoundryAssembliesPath)Main.dll&quot; --output=&quot;$(SolutionDir)publicized_assemblies\Main.dll&quot;" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if not exist &quot;$(TargetModDir)&quot; mkdir &quot;$(TargetModDir)&quot;" />
+    <Exec Command="copy /Y &quot;$(SolutionDir)Mod\*.*&quot; &quot;$(TargetModPath)&quot;" />
+    <Exec Command="copy /Y &quot;$(TargetPath)&quot; &quot;$(TargetModPath)&quot;" />
+  </Target>
+
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <StartAction>Program</StartAction>
+    <StartProgram>$(FoundryInstallPath)Foundry.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartWorkingDirectory>$(FoundryInstallPath)</StartWorkingDirectory>
+  </PropertyGroup>
+
+</Project>
+

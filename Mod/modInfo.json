@@ -1,0 +1,9 @@
+{
+  "identifier": "erkle64.StepUp2TheBlocks",
+  "displayName": "StepUp2TheBlocks",
+  "assetBundles": [ ],
+  "assemblies": [
+    "StepUp2TheBlocks.dll"
+  ]
+}
+
